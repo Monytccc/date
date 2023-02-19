@@ -19,7 +19,7 @@ app.use(express.json());
 
 app.get('/', async (req, res) => {
     res.status(200).send({
-        message: 'Hello friends! The API server is up and running. This API was built by Viraj.',
+        message: 'Copyright by mnytc',
     })
 });
 
